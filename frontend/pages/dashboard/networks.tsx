@@ -127,8 +127,8 @@ const Networks: React.FC = () => {
               data={formattedChartData}
               dataKey="formattedDate"
               series={[
-                { name: 'activeMobiles', color: mobileColor },
-                { name: 'activeComputers', color: computerColor },
+                { name: 'activeMobiles', color: mobileColor, label: 'Mobile' },
+                { name: 'activeComputers', color: computerColor, label: 'Computer' },
               ]}
               curveType="linear"
               withLegend

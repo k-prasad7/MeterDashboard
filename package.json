@@ -8,6 +8,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.27.0",
     "@emotion/react": "^11.13.0",
     "@mantine/charts": "^7.11.2",
     "@mantine/core": "^7.x.x",

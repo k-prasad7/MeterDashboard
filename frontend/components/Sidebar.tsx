@@ -2,11 +2,12 @@ import React from 'react';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { AppShell, Stack, Text, UnstyledButton, Group, useMantineTheme, rgba } from '@mantine/core';
-import { IconNetwork, IconUsers } from '@tabler/icons-react';
+import { IconNetwork, IconUsers, IconMessageCircle } from '@tabler/icons-react';
 
 const navItems = [
   { icon: IconNetwork, label: 'Networks', href: '/dashboard/networks' },
   { icon: IconUsers, label: 'Clients', href: '/dashboard/clients' },
+  { icon: IconMessageCircle, label: 'Chat', href: '/dashboard/chat' },
 ];
 
 const Sidebar: React.FC = () => {
